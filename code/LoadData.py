@@ -6,7 +6,7 @@ from pymongo import MongoClient
 
 class LoadData:
 	def __init__(self):
-		self._path = "/home/chiru/Term project/countries/oly$countries/"
+		self._path = "/home/chiru/Term_project/countries/"
 		self.infile = open(self._path + "sorted.csv","r")
 		self.outfile = open(self._path + "Olympicsdata.json","w")
 
@@ -28,12 +28,7 @@ class LoadData:
 		jsonarray=json.loads(jsonfile.read())
 		for document in jsonarray:
 		   self.collection.insert(document) 
-		
-data = LoadData()
-data.csvtojson()
-data. connect_database()
-data.LoadtoMongo()
-
+	
 
 
  

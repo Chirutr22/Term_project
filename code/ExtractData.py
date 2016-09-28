@@ -1,6 +1,6 @@
 class ExtractData:
 	def __init__(self):
-		self._pwd = "/home/chiru/Term project/countries/oly$countries/"
+		self._pwd = "/home/chiru/Term_project/countries/"
 		self.infile = open(self._pwd+"countries.csv","r")
 		self.outfile = open(self._pwd+"all.csv","w")
 		
@@ -23,7 +23,4 @@ class ExtractData:
 			self.outfile.write(data)
 		self.outfile.write('\n')	
 			
-if __name__ == '__main__':
-	data = ExtractData()
-	data.read_infile()
 	
