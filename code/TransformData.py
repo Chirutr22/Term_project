@@ -1,28 +1,29 @@
 class TransformData:
 
 	def __init__(self):
-		self._path = "/home/chiru/Term_project/countries/"
-		self.infile = open(self._path + "all.csv")
+		self._path = "/home/cloudera/Term_project/countries/"
+		self.infile = open(self._path + "all.csv","r")
 		self.outfile = open(self._path + "sorted.csv","w")
+		self.__read_file()
        
-	def read_file(self):
+	def __read_file(self):
    		for record in self.infile:
-   			self.process_data(record)
-   			self.write_file()
+   			self.__process_data(record)
+   			self.__write_file()
 
-	def write_file(self):
+	def __write_file(self):
 		writerec = self.country+","+self.year+","+self.participants+","+self.males+","+ self.females+","+self.sports+","+self.gold+","+self.silver+","+self.bronze+","+self.total+"\n"
 		if self.year == "2012" or self.year == "2008" or self.year == "2004" or self.year == "2000" or self.year == "1996":
 			self.outfile.write(writerec)
    			
-	def get_year(self, string):
+	def __get_year(self, string):
 		year = string.split(' ')
 		return(year[0])
 
-	def process_data(self,record):
+	def __process_data(self,record):
 		strings = record.split(',')
 		self.country = strings[0]
-		self.year = (self.get_year(strings[2]))
+		self.year = (self.__get_year(strings[2]))
 		self.participants = (strings[4])
 		self.males =  (strings[5])
 		self.females = (strings[6])
@@ -44,5 +45,3 @@ class TransformData:
 		else:
 			self.total = (strings[11]);
    		
-
-
