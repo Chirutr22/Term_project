@@ -9,9 +9,9 @@ group by name;
 INSERT OVERWRITE LOCAL DIRECTORY '/home/cloudera/Term_project/data/successratio' 
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ',' 
-select name,(total/participant)*100
+select name,round((sum(total)/sum(participant))*100)
 from data
-where year = '2012';
+group by name;
 
 load data local inpath '/home/cloudera/Downloads/ll.csv' into table position;
 
@@ -120,4 +120,83 @@ select name, year,participant
 from data 
 where name = "China"; 
 
+create table economy(name string,type string)
+row format delimited 
+fields terminated by ',';
 
+
+load data local inpath '/home/cloudera/Term_project/countries/economy.csv' into table economy;
+
+INSERT OVERWRITE LOCAL DIRECTORY '/home/cloudera/Term_project/data/devlop_countries' 
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',' 
+select distinct a.name,b.type
+from data a
+full outer join economy b
+on (a.name = b.name);
+
+
+select sum(a.total)
+from data a,economy b,govern c
+where a.name = b.name
+and a.name = c.name
+and b.name = c.name
+and a.year = 2012
+and b.type = "Devloping"
+and c.type = "Democratic";
+
+select sum(a.total)
+from data a,economy b,govern c
+where a.name = b.name
+and a.name = c.name
+and b.name = c.name
+and a.year = 2012
+and b.type = "Devloped"
+and c.type = "Democratic";
+
+select sum(a.total)
+from data a,economy b,govern c
+where a.name = b.name
+and a.name = c.name
+and b.name = c.name
+and a.year = 2012
+and b.type = "Devloping"
+and c.type = "Democratic";
+
+select a.name,b.type,c.type
+from data a, govern b,economy c
+where a.name = b.name
+and b.name = c.name
+and a.name = c.name
+and a.name = "India"
+and b.type = "Democratic"
+and c.type = "Devloping";
+
+select b.type,c.type,a.name,a.total
+from data a,govern b,economy c
+where a.name = b.name
+and b.name = c.name
+and a.name = c.name
+group by b.type,c.type,a.name,a.total; 
+
+
+INSERT OVERWRITE LOCAL DIRECTORY '/home/cloudera/Term_project/data/overll.csv' 
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',' 
+select a.name,a.type,b.type
+from govern a,economy b
+where a.name = b.name
+group by a.name,a.type,b.type;
+
+load data local inpath '/home/cloudera/Term_project/data/overall.csv/status.csv' into table status;
+
+create table status(name string,govern string,economy string)
+row format delimited 
+fields terminated by ',';
+
+select sum(a.total)
+from data a,status b
+where a.name = b.name
+and b.economy = "Developed"
+and b.govern = "Democratic"
+and a.year = 2012;
