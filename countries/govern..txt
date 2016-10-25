@@ -1,0 +1,205 @@
+Afghanistan,Non-Democratic
+Albania,Non-Democratic
+Algeria,Non-Democratic
+American Samoa,Non-Democratic
+Andorra,Non-Democratic
+Angola,Non-Democratic
+Antigua and Barduda,Non-Democratic
+Argentina,Democratic
+Armenia,Non-Democratic
+Aruba,Non-Democratic
+Australia,Democratic
+Austria,Democratic
+Azerbaijan,Non-Democratic
+Bahamas,Non-Democratic
+Bahrain,Non-Democratic
+Bangladesh,Non-Democratic
+Barbados,Non-Democratic
+Belarus,Non-Democratic
+Belgium,Democratic
+Belize,Non-Democratic
+Benin,Non-Democratic
+Bermuda,Non-Democratic
+Bhutan,Non-Democratic
+Bolivia,Non-Democratic
+Bosnnia and Herzegovina,Non-Democratic
+Botswana,Democratic
+Brazil,Democratic
+British Virgin Island,Non-Democratic
+Brunei,Non-Democratic
+Bulgaria,Democratic
+Burkina Faco,Non-Democratic
+Burundi,Non-Democratic
+Cambodia,Non-Democratic
+Cameroon,Non-Democratic
+Canada,Democratic
+Cape verde,Democratic
+Cayman Islands,Non-Democratic
+Cazech Republic,Democratic
+Central African Republic,Non-Democratic
+Chad,Non-Democratic
+Chile,Democratic
+China,Non-Democratic
+Chinese Taipei ,Non-Democratic
+Colombia,Democratic
+Comoros,Non-Democratic
+Congo Brazzaville,Non-Democratic
+Congo kinshasa,Non-Democratic
+Cook Islands,Non-Democratic
+Costarica,Democratic
+Coted’ivoire,Non-Democratic
+Croatia,Democratic
+Cuba,Non-Democratic
+Cyprus,Democratic
+Denmark,Democratic
+Djibouti,Non-Democratic
+Dominica,Non-Democratic
+Dominican Republic,Democratic
+Ecuador,Non-Democratic
+Egypt,Non-Democratic
+El salvador,Democratic
+Equatorial Guinea,Non-Democratic
+Eritra,Non-Democratic
+Estonia,Democratic
+Ethiopia,Non-Democratic
+Federated States of Micronesia,Non-Democratic
+Fiji,Non-Democratic
+Finland,Democratic
+France,Democratic
+Gabon,Non-Democratic
+Gambia,Non-Democratic
+Georgai,Non-Democratic
+Germany,Democratic
+Ghana,Democratic
+Giinea Bissau,Non-Democratic
+Great Britain,Democratic
+Greece,Democratic
+Grenada,Non-Democratic
+Guatemala,Non-Democratic
+Guinea,Non-Democratic
+Guyana,Democratic
+Haiti,Non-Democratic
+Honduras,Non-Democratic
+Hong Kong,Democratic
+Hungary,Democratic
+Iceland,Democratic
+India,Democratic
+Individual olympic Athletes,Non-Democratic
+Indonesia,Democratic
+Iran,Non-Democratic
+Iraq,Non-Democratic
+Ireland,Democratic
+Israel,Democratic
+Italy,Democratic
+Jamica,Democratic
+Japan,Democratic
+Jordan,Non-Democratic
+Kazakhstan,Non-Democratic
+Kenya,Non-Democratic
+Kirivati,Non-Democratic
+Kuwait,Non-Democratic
+Kyrgyzstan,Non-Democratic
+Laos,Non-Democratic
+Latvia,Democratic
+Lebanon,Non-Democratic
+Lesotho,Democratic
+liberia,Non-Democratic
+Libya,Non-Democratic
+Liechtenstein,Non-Democratic
+Lithuania,Democratic
+Luxemdourg,Democratic
+Macedonia,Democratic
+Madgascar,Non-Democratic
+Malawi,Non-Democratic
+Maldives,Non-Democratic
+Mali,Non-Democratic
+Malta,Democratic
+Malysia,Democratic
+Marshall Islands,Non-Democratic
+Mauritania,Non-Democratic
+Mauritius,Democratic
+Mexico,Democratic
+Moldova,Democratic
+Monaco,Non-Democratic
+Mongolia,Democratic
+Montenegro,Democratic
+Morocco,Non-Democratic
+Mozambique,Non-Democratic
+Myanmar,Non-Democratic
+Nambia,Non-Democratic
+Nauru,Non-Democratic
+Nepal,Non-Democratic
+Netherlands antilles,Non-Democratic
+Netherlands,Democratic
+New Zeland,Non-Democratic
+Nicaragua,Non-Democratic
+Niger,Non-Democratic
+Nigeria,Non-Democratic
+North Korea,Non-Democratic
+Norway,Democratic
+Oman,Non-Democratic
+Pakistan,Non-Democratic
+Palau,Non-Democratic
+Palestine,Non-Democratic
+Panama,Democratic
+Papua New Guinea,Democratic
+Paraguay,Democratic
+Peru,Democratic
+Philippines,Democratic
+Poland,Democratic
+Portugual,Democratic
+Puerto Rico,Non-Democratic
+Qatar,Non-Democratic
+Romania,Democratic
+Russia,Non-Democratic
+Rwanda,Non-Democratic
+Saint Kitts Nevis,Non-Democratic
+Saint Lucia,Non-Democratic
+Saint Vincent and The Grenadines,Non-Democratic
+Samoa,Non-Democratic
+San Marino,Non-Democratic
+Sao Tome and Principe,Non-Democratic
+Saudi Arabia,Non-Democratic
+Senegal,Democratic
+Serbia and Mont Energo,Non-Democratic
+Serbia,Democratic
+Seychelles,Non-Democratic
+Sierra Leone,Non-Democratic
+Singapore,Democratic
+Slovakia,Democratic
+Slovenia,Democratic
+Solmon Islands,Non-Democratic
+Somalia,Non-Democratic
+South Africa,Democratic
+South Korea,Democratic
+Spain,Democratic
+Sri Lanka,Democratic
+Sudan,Non-Democratic
+Suriname,Democratic
+Swaziland,Non-Democratic
+Sweden,Democratic
+Switzerland,Democratic
+Syria,Non-Democratic
+Tajikistan,Non-Democratic
+Tanzania,Non-Democratic
+Thailand,Non-Democratic
+Timor Leste,Democratic
+Togo,Non-Democratic
+Tonga,Non-Democratic
+Trinidad and Tobago,Democratic
+Tunisia,Democratic
+Turkey,Non-Democratic
+Turkmenistan,Non-Democratic
+Tuvalu,Non-Democratic
+Uganda,Non-Democratic
+Ukraine,Non-Democratic
+Unified Team,Non-Democratic
+United Arab Emirates,Non-Democratic
+United states Virgin Islands,Non-Democratic
+United States,Democratic
+Uraguay,Non-Democratic
+Uzbekistan,Non-Democratic
+Vanuatu,Non-Democratic
+Venezuela,Non-Democratic
+Vietnam,Non-Democratic
+Yemen,Non-Democratic
