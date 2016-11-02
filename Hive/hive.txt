@@ -200,3 +200,33 @@ where a.name = b.name
 and b.economy = "Developed"
 and b.govern = "Democratic"
 and a.year = 2012;
+
+INSERT OVERWRITE LOCAL DIRECTORY '/home/cloudera/Term_project/data/Participants-count' 
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ',' 
+select sum(participant),name,sum(total)
+from data
+group by name;
+select name,sum(participant) as participants
+from data
+group by name
+order by participants desc, name desc;
+create table medalist(City string,Edition int,Sport string,Discipline string,Athlete_name string,NOC string,Gender string,Event string,Event_gender string,Medal string)
+row format delimited 
+fields terminated by ',';
+
+
+load data local inpath '/home/cloudera/Term_project/countries/all_medalists.csv' into table medalist;
+
+select NOC,Edition
+from medalist
+where Sport = "Wrestling";
+
+
+INSERT OVERWRITE LOCAL DIRECTORY '/home/cloudera/Term_project/data/Participants-count' 
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+select name,sum(participant) as participants
+from data
+group by name
+order by participants desc, name desc;

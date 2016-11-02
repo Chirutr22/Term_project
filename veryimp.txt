@@ -1,0 +1,7 @@
+openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"
+sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vboxdrv)
+sudo mokutil --import MOK.der
+Systemtap Compile Server Status for 'online,trusted,compatible'
+stap --list-servers=all
+stap --use-server=kvm-rawhide-64-uefi-1.local:39587 -e 'probe begin { exit() }'
+mokutil --import signing_key.x509
